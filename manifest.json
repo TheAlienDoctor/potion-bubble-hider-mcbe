@@ -1,9 +1,9 @@
 ﻿{
     "format_version": 2,
     "header": {
-        "description": "§9PACK DESCRIPTION §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0",
-        "name": "§1Alien's §ePack name §4(V1.0.0)",
-        "uuid": "UUID1 HERE",
+        "description": "§9Hides the annoying potion bubbles §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0",
+        "name": "§1Alien's §ePotion bubble hider §4(V1.0.0)",
+        "uuid": "b53bd964-c618-42a6-aede-68dfd3b082d3",
         "version": [
             1,
             0,
@@ -17,9 +17,9 @@
     },
     "modules": [
         {
-            "description": "§9PACK DESCRIPTION §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0",
-            "type": "resources | data",
-            "uuid": "UUID2 HERE",
+            "description": "§9Hides the annoying potion bubbles §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0",
+            "type": "resources",
+            "uuid": "be0f807e-a116-489b-8a6f-205aa7d6782b",
             "version": [
                 1,
                 0,
