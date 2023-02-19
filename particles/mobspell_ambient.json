@@ -2,15 +2,15 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "minecraft:mobspell_emitter",
+			"identifier": "minecraft:mobspell_ambient",
 			"basic_render_parameters": {
-				"material": "particles_alpha",
+				"material": "particles_blend",
 				"texture": "textures/particle/particles"
 			}
 		},
 		"components": {
 			"minecraft:emitter_rate_instant": {
-				"num_particles": 0 //Removed amount of particles shown for normal potions - Alien
+				"num_particles": 0 //Removed amount of particles shown for beacon effects potions - Alien
 			},
 			"minecraft:emitter_lifetime_once": {},
 			"minecraft:emitter_shape_custom": {
@@ -33,10 +33,9 @@
 			},
 			"minecraft:particle_motion_collision": {
 				"enabled": 1,
-				"expire_on_contact": true,
 				"collision_drag": 1.0,
 				"coefficient_of_restitution": 1.0,
-				"collision_radius": 0.01
+				"collision_radius": 0.5
 			},
 			"minecraft:particle_appearance_billboard": {
 				"size": [
@@ -72,7 +71,7 @@
 					"variable.color.r",
 					"variable.color.g",
 					"variable.color.b",
-					"variable.color.a"
+					"0.4"
 				]
 			},
 			"minecraft:particle_appearance_lighting": {}
